@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+// Struct
+
+// Contains basic model objects used by the Interactor
+
+struct CryptoModel : Decodable {
+    let currency : String
+    let price : String
+}
